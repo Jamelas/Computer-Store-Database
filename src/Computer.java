@@ -134,7 +134,7 @@ public class Computer {
     public static ArrayList<Computer> loadComputers() {
         computers  = new ArrayList<Computer>();
         try {
-            BufferedReader inputStream = new BufferedReader(new FileReader("computers.txt"));
+            BufferedReader inputStream = new BufferedReader(new FileReader("../computers.txt"));
 
             try {
                 String line = "";

@@ -26,7 +26,7 @@ public class LoginButton extends JButton{
         GridBagConstraints c = new GridBagConstraints();
 
         //add image to the button
-        JLabel image = new JLabel(new ImageIcon("logo.png"));
+        JLabel image = new JLabel(new ImageIcon("../logo.png"));
         c.gridx = 0;
         c.gridy = 0;
         panel.add(image, c);
